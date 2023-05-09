@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NBA Playoffs Forum</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    #header {
+      background-color: #ff4500;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #container {
+      margin: 20px auto;
+      width: 800px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .post {
+      padding: 20px;
+      border-bottom: 1px solid #e6e6e6;
+    }
+
+    .post:last-child {
+      border-bottom: none;
+    }
+
+    .post .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .post .author {
+      color: #888888;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    .post .content {
+      color: #333333;
+      font-size: 16px;
+    }
+
+    .post .content p {
+      margin: 0;
+    }
+
+    .post .content img {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .post .comments {
+      color: #888888;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .post .comments a {
+      color: #888888;
+      text-decoration: none;
+    }
+
+    .post .comments a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      background-color: #dddddd;
+      padding: 10px;
+      text-align: center;
+      color: #888888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>NBA Playoffs Forum</h1>
+  </div>
+
+  <div id="container">
+    <div class="post">
+      <div class="title">[Game Thread] Los Angeles Lakers vs. Golden State Warriors</div>
+      <div class="author">Posted by JohnDoe</div>
+      <div class="content">
+        <p>The game is about to start! Who do you think will win?</p>
+        <img src="lakers-warriors.jpg" alt="Lakers vs. Warriors">
+      </div>
+      <div class="comments">15 comments | <a href="#">View comments</a></div>
+    </div>
+
+    <div class="post">
+      <div class="title">[News] Brooklyn Nets acquire new player</div>
+      <div class="author">Posted by JaneSmith</div>
+      <div class="content">
+        <p>The Brooklyn Nets have announced the acquisition of a new player, Joe Johnson, to bolster their roster for the playoffs.</p>
+      </div>
+      <div class="comments">8 comments | <a href="#">View comments</a></div>
+    </div>
+
+    <!-- Add more posts here -->
+
+  </div>
+
+  <div class="footer">
+    &copy; 2023 NBA Playoffs Forum. All rights reserved
